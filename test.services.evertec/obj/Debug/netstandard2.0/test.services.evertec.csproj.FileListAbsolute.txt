@@ -1,0 +1,12 @@
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/bin/Debug/netstandard2.0/test.services.evertec.deps.json
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/bin/Debug/netstandard2.0/test.services.evertec.dll
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/bin/Debug/netstandard2.0/test.services.evertec.pdb
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/bin/Debug/netstandard2.0/test.data_access.evertec.dll
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/bin/Debug/netstandard2.0/test.data_access.evertec.pdb
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/obj/Debug/netstandard2.0/test.services.evertec.csproj.AssemblyReference.cache
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/obj/Debug/netstandard2.0/test.services.evertec.AssemblyInfoInputs.cache
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/obj/Debug/netstandard2.0/test.services.evertec.AssemblyInfo.cs
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/obj/Debug/netstandard2.0/test.services.evertec.csproj.CoreCompileInputs.cache
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/obj/Debug/netstandard2.0/test.services.evertec.csproj.CopyComplete
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/obj/Debug/netstandard2.0/test.services.evertec.dll
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/obj/Debug/netstandard2.0/test.services.evertec.pdb

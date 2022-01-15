@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec.Android/test.espinosa_oscar.evertec.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/test.data_access.evertec.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/test.data_access.evertec.csproj",
+        "projectName": "test.data_access.evertec",
+        "projectPath": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/test.data_access.evertec.csproj",
+        "packagesPath": "/Users/teletrabajo/.nuget/packages/",
+        "outputPath": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/teletrabajo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec.Android/test.espinosa_oscar.evertec.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec.Android/test.espinosa_oscar.evertec.Android.csproj",
+        "projectName": "test.espinosa_oscar.evertec.Android",
+        "projectPath": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec.Android/test.espinosa_oscar.evertec.Android.csproj",
+        "packagesPath": "/Users/teletrabajo/.nuget/packages/",
+        "outputPath": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/teletrabajo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec.csproj": {
+                "projectPath": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec.csproj",
+        "projectName": "test.espinosa_oscar.evertec",
+        "projectPath": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec.csproj",
+        "packagesPath": "/Users/teletrabajo/.nuget/packages/",
+        "outputPath": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.espinosa_oscar.evertec/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/teletrabajo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/test.services.evertec.csproj": {
+                "projectPath": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/test.services.evertec.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2291, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/test.services.evertec.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/test.services.evertec.csproj",
+        "projectName": "test.services.evertec",
+        "projectPath": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/test.services.evertec.csproj",
+        "packagesPath": "/Users/teletrabajo/.nuget/packages/",
+        "outputPath": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.services.evertec/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/teletrabajo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/test.data_access.evertec.csproj": {
+                "projectPath": "/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/test.data_access.evertec.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

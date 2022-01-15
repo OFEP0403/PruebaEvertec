@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:test.espinosa_oscar.evertec.ViewModels"
+    x:Class="test.espinosa_oscar.evertec.Views.NewUpdTipView">
+
+    <ContentPage.BindingContext>
+        <vm:NewUpdTipViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <StackLayout Padding="0,40,0,0" Orientation="Vertical" VerticalOptions="StartAndExpand">
+                <Label FontSize="15" TextColor="#000" Text="Fecha Creación"/>
+
+                <!--<Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>                        
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Entry Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand" Text="{Binding CreatedDate}"></Entry>
+                    <Button Grid.Row="0" Grid.Column="1" HorizontalOptions="End" Text="Cal" Command="{Binding ClearCommand}"/>
+                </Grid>-->
+                <StackLayout Orientation="Horizontal" >
+                    <Image Source="Calendar.png" HeightRequest="20" WidthRequest="20"/>
+                    <DatePicker HorizontalOptions="FillAndExpand" Date="{Binding TipItem.Create_Date}"/>
+                </StackLayout>
+
+                <Label FontSize="15" TextColor="#000" Text="Titulo"/>
+                <Entry Text="{Binding TipItem.Title}"/>
+
+                <Label FontSize="15" TextColor="#000" Text="Descripción"/>
+                <Entry Text="{Binding TipItem.Description}"/>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="End">
+                <Button Text="Guardar" Command="{Binding CreateUpdateCommand}"/>
+            </StackLayout>
+        </StackLayout>  
+    </ContentPage.Content>
+</ContentPage>

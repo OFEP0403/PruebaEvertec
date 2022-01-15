@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:test.espinosa_oscar.evertec.ViewModels"
+    x:Class="test.espinosa_oscar.evertec.Views.TipView">
+    <ContentPage.BindingContext>
+        <vm:TipViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <StackLayout Padding="0,40,0,0" Orientation="Vertical" VerticalOptions="StartAndExpand">
+                <Label FontSize="25" TextColor="#000" Text="{Binding TipItem.Create_Date}"/>
+                <Label FontSize="30" TextColor="#000" FontAttributes="Bold" Text="{Binding TipItem.Title}"/>
+                <Label Padding="0,20,0,0" TextColor="#000" FontSize="20" Text="{Binding TipItem.Description}"/>            
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="End">
+                <Button Text="Editar" Command="{Binding UpdateCommand}"/>
+            </StackLayout>
+        </StackLayout>  
+    </ContentPage.Content>
+</ContentPage>

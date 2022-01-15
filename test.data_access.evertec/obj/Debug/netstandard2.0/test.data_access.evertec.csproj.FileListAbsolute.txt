@@ -1,0 +1,9 @@
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/bin/Debug/netstandard2.0/test.data_access.evertec.deps.json
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/bin/Debug/netstandard2.0/test.data_access.evertec.dll
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/bin/Debug/netstandard2.0/test.data_access.evertec.pdb
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/obj/Debug/netstandard2.0/test.data_access.evertec.csproj.AssemblyReference.cache
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/obj/Debug/netstandard2.0/test.data_access.evertec.AssemblyInfoInputs.cache
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/obj/Debug/netstandard2.0/test.data_access.evertec.AssemblyInfo.cs
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/obj/Debug/netstandard2.0/test.data_access.evertec.csproj.CoreCompileInputs.cache
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/obj/Debug/netstandard2.0/test.data_access.evertec.dll
+/Users/teletrabajo/Projects/test.espinosa_oscar.evertec/test.data_access.evertec/obj/Debug/netstandard2.0/test.data_access.evertec.pdb

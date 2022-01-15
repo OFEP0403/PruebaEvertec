@@ -1,0 +1,28 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{A4EC9B68-CEB9-4431-8C87-AFCFBB7E8DB9}|Default">
+  <MonoDevelop.Ide.ItemProperties.Presentacion.test.espinosa__oscar.evertec.iOS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="test.espinosa_oscar.evertec" expanded="True" selected="True">
+            <Node name="Dominio" expanded="True" />
+            <Node name="Infraestructura" expanded="True" />
+            <Node name="Presentacion" expanded="True">
+              <Node name="test.espinosa_oscar.evertec" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Presentacion.test.espinosa__oscar.evertec.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <DisabledProjects>
+    <String>test.data_access.evertec/test.database.evertec/test.database.evertec.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

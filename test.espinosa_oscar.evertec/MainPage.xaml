@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="test.espinosa_oscar.evertec.MainPage">
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Prueba técnica" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" />
+        </Frame>
+        <Label Text="Oscar Espinosa" FontSize="Title" Padding="30,10,30,10" />
+        <Label Text="Esta es la prueba tecnica presentada a Evertec, por favor de clic en continuar" FontSize="16" Padding="30,0,30,0" />
+        <Label FontSize="16" Padding="30,30,0,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Número celular: " />
+                        <Span Text="+57 3005611083" FontAttributes="Bold" />
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label FontSize="16" Padding="30,0,0,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Correo electronico: " />
+                        <Span Text="oscar.espinosa-p@hotmail.com" FontAttributes="Bold" />
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+</ContentPage>

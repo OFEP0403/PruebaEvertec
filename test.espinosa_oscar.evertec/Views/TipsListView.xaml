@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="test.espinosa_oscar.evertec.Views.TipsListView"
+    x:Name="CommandDelete"
+    xmlns:local="clr-namespace:test.espinosa_oscar.evertec.Views">
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <ListView
+                x:Name="ListItemsTips"
+                ItemsSource="{Binding Tips}"
+                SelectedItem="{Binding SelectedTip}"
+                RowHeight="55">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout x:Name="Item" Orientation="Horizontal" Padding="8,0,8,0">
+                                <StackLayout Orientation="Vertical" Padding="8,0,8,0">
+                                    <Label Text="{Binding Create_Date}" TextColor="#000" FontSize="14" LineBreakMode="TailTruncation" />
+                                    <Label Text="{Binding Title}" TextColor="#000" FontSize="17" FontAttributes="Bold" LineBreakMode="TailTruncation" />                                   
+                                </StackLayout>
+                                <Button
+                                    Text="Ver" Command="{Binding BindingContext.IDetails ,Source={x:Reference Name=ListItemsTips}}"
+                                    CommandParameter="{Binding .}"/>
+                                <Button
+                                    Text="Borrar"                                    
+                                    Command="{Binding BindingContext.IDelete ,Source={x:Reference Name=ListItemsTips}}"
+                                    CommandParameter="{Binding .}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button
+                x:Name="btCrear"
+                Text="Crear"
+                Command="{Binding INew}"
+                CommandParameter="{x:Type local:NewUpdTipView}">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
